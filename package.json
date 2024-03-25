@@ -1,0 +1,23 @@
+{
+  "name": "auzair-number-guessing-game",
+  "version": "1.0.3",
+  "description": "this is cli number-guessing game",
+  "main": "main.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abdul Uzair",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "@abduluzair/number-gessing-game": "^1.0.1",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  }
+}
