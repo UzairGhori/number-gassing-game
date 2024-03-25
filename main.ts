@@ -11,6 +11,7 @@ import chalk from "chalk";
 
 const randomnumber = Math.floor(Math.random()*10+1);
  
+console.log(chalk.blue("Wellcome To Number Guessing Game"));
 
 const answers  = await inquirer.prompt([
     {
